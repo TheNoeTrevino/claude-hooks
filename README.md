@@ -2,7 +2,7 @@
 
 ## Demo
 
-https://github.com/user-attachments/assets/32cf2ccc-d047-4c81-89fb-15f6809b8f1f
+https://github.com/user-attachments/assets/dbe1d10b-42f0-4a9a-a2e2-a00d7b776aa0
 
 ## Installation
 You can put this anywhere, but this is what I do:
