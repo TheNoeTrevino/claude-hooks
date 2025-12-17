@@ -17,17 +17,6 @@ Now add this to your `~/claude/settings.json`:
   ...
   "hooks": {
   ...
-    "PreToolUse": [
-      {
-        "matcher": "AskUserQuestion",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "~/.claude/hooks/answer-question.sh"
-          }
-        ]
-      }
-    ],
     "PermissionRequest": [
       {
         "matcher": "*",
