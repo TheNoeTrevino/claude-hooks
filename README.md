@@ -28,12 +28,13 @@ Now add this to your `~/claude/settings.json`:
         ]
       }
     ],
-    "Notification": [
+    "PermissionRequest": [
       {
+        "matcher": "*",
         "hooks": [
           {
             "type": "command",
-            "command": "/~.claude/hooks/needs-permissions.sh"
+            "command": "~/.claude/hooks/needs-permissions.sh"
           }
         ]
       }
@@ -51,3 +52,5 @@ Now add this to your `~/claude/settings.json`:
   },
 }
 ```
+
+
