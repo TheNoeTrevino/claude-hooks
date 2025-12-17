@@ -3,7 +3,7 @@
 if [ -n "$TMUX" ]; then
   # get the tmux session name
   tmux_session=$(tmux display-message -p '#S')
-  notify-send 'Claude Edit' "Requesting user input in session: $tmux_session" -t 3000
+  notify-send 'Claude' "Requesting user input in session: $tmux_session" -t 3000
 else
-  notify-send 'Claude Edit' "Requesting user input" -t 3000
+  notify-send 'Claude' "Requesting user input" -t 3000
 fi
