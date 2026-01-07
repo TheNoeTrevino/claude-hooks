@@ -33,7 +33,7 @@ Now add this to your `~/claude/settings.json`:
         "hooks": [
           {
             "type": "command",
-            "command": "/~.claude/hooks/notify-ready.sh"
+            "command": "~/.claude/hooks/notify-ready.sh"
           }
         ]
       }
